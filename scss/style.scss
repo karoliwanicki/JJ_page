@@ -63,7 +63,12 @@
     margin: 0 auto;
 }
 header{
-    // background-color: rgb(236,128,88);
+    background-color: #558C89;
+    height: 60vh;
+}
+.main_section{
+  background-color: #D9853B;
+
 }
 .top_logo{
   @include flexDisplay;
@@ -78,6 +83,7 @@ header{
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
     font-weight: bold;
+    color: #ECECEA;
   }
 }
 .top_icon{
@@ -88,6 +94,7 @@ header{
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
     font-weight: bold;
+    color: #ECECEA;
   }
 }
 .tabs {
@@ -106,14 +113,13 @@ header{
       li{
         margin:0px 5px;
         float:left;
-        // list-style:none;
         font-family: 'Raleway', sans-serif;
       }
       a {
           padding:9px 15px;
           display:inline-block;
-          border-radius:3px 3px 0px 0px;
-          background:#d9d9d9;
+          border-radius:6px;
+          background:#74AFAD;
           font-size:22px;
           font-family: 'Raleway', sans-serif;
           color:black;
@@ -129,22 +135,20 @@ header{
         }
 
     li.active a, li.active a:hover {
-        background:#fff;
+        background:#ECECEA;
         color:black;
-        border-radius:3px;
+        border-radius:6px;
         // border: 1px solid black;
     }
     .tab-content {
         padding:15px;
-        border-radius:3px;
+        border-radius:6px;
         // border: 1px solid black;
-        background:#fff;
+        background:#d2d2d1;
         font-family: 'Raleway', sans-serif;
         font-size: 20px;
+        color: black;
         line-height: 1.5;
-        -webkit-box-shadow: 6px 6px 0px -5px rgba(0,0,0,1);
-        -moz-box-shadow: 6px 6px 0px -5px rgba(0,0,0,1);
-        box-shadow: 6px 6px 0px -5px rgba(0,0,0,1);
         span{
           margin-left: 50%;
         }
@@ -159,15 +163,15 @@ header{
         }
         .demo {
       		width:100%;
-      		border:solid;
+      		border:solid #ECECEA;
       		border-collapse:separate;
       		padding:5px;
       	}
       	.demo th {
-      		border:solid;
+      		border:solid #ECECEA;
       		padding:5px;
       	}
       	.demo td {
-      		border:solid;
+      		border:solid #ECECEA;
       		padding:5px;
       	}
