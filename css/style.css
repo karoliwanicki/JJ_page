@@ -1,0 +1,221 @@
+/* flex display prefix mixin */
+/*font size maps for each element*/
+/*font size mixin to use for each element*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: 'yellowtailregular';
+  src: url("../fonts/yellowtail-regular-webfont.eot");
+  src: url("../fonts/yellowtail-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/yellowtail-regular-webfont.woff2") format("woff2"), url("../fonts/yellowtail-regular-webfont.woff") format("woff"), url("../fonts/yellowtail-regular-webfont.ttf") format("truetype"), url("../fonts/yellowtail-regular-webfont.svg#yellowtailregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'herr_von_muellerhoffregular';
+  src: url("../fonts/herrvonmuellerhoff-regular-webfont.eot");
+  src: url("../fonts/herrvonmuellerhoff-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/herrvonmuellerhoff-regular-webfont.woff2") format("woff2"), url("../fonts/herrvonmuellerhoff-regular-webfont.woff") format("woff"), url("../fonts/herrvonmuellerhoff-regular-webfont.ttf") format("truetype"), url("../fonts/herrvonmuellerhoff-regular-webfont.svg#herr_von_muellerhoffregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sanslight';
+  src: url("../fonts/opensans-light1-webfont.eot");
+  src: url("../fonts/opensans-light1-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-light1-webfont.woff2") format("woff2"), url("../fonts/opensans-light1-webfont.woff") format("woff"), url("../fonts/opensans-light1-webfont.ttf") format("truetype"), url("../fonts/opensans-light1-webfont.svg#open_sanslight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.clear {
+  clear: both;
+}
+
+.main-width {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.top_logo {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+
+.top_info {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.top_info p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.top_icon {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.top_icon p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.tabs {
+  width: 100%;
+  display: inline-block;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.tab-links:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.tab-links li {
+  margin: 0px 5px;
+  float: left;
+  font-family: 'Raleway', sans-serif;
+}
+
+.tab-links a {
+  padding: 9px 15px;
+  display: inline-block;
+  border-radius: 3px 3px 0px 0px;
+  background: #d9d9d9;
+  font-size: 22px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  transition: all linear 0.15s;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.tab-links a:hover {
+  background: rgba(211, 211, 211, 0.5);
+  text-decoration: none;
+}
+
+li.active a, li.active a:hover {
+  background: #fff;
+  color: black;
+  border-radius: 3px;
+}
+
+.tab-content {
+  padding: 15px;
+  border-radius: 3px;
+  background: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  -webkit-box-shadow: 6px 6px 0px -5px black;
+  -moz-box-shadow: 6px 6px 0px -5px black;
+  box-shadow: 6px 6px 0px -5px black;
+}
+
+.tab-content span {
+  margin-left: 50%;
+}
+
+.tab {
+  display: none;
+  margin-top: 5%;
+}
+
+.tab.active {
+  display: block;
+}
+
+.demo {
+  width: 100%;
+  border: solid;
+  border-collapse: separate;
+  padding: 5px;
+}
+
+.demo th {
+  border: solid;
+  padding: 5px;
+}
+
+.demo td {
+  border: solid;
+  padding: 5px;
+}
