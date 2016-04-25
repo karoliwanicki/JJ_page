@@ -192,7 +192,7 @@ li.active a, li.active a:hover {
 .tab-content {
   padding: 15px;
   border-radius: 6px;
-  background: rgba(165, 165, 163, 0.9);
+  background: #d2d2d1;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   color: black;
@@ -214,17 +214,17 @@ li.active a, li.active a:hover {
 
 .demo {
   width: 100%;
-  border: solid;
+  border: solid #ECECEA;
   border-collapse: separate;
   padding: 5px;
 }
 
 .demo th {
-  border: solid;
+  border: solid #ECECEA;
   padding: 5px;
 }
 
 .demo td {
-  border: solid;
+  border: solid #ECECEA;
   padding: 5px;
 }
