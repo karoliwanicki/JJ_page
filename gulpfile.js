@@ -29,6 +29,15 @@ gulp.task('watch', function(){
   gulp.watch('scss/*.scss', ['sass']);
 })
 
+gulp.task('progressbar', function(){
+  require.config({
+      paths: {'progressbar': '../bower_components/progressbar.js/dist/progressbar'}
+  });
+
+  define(['progressbar'], function(ProgressBar) {
+      var line = new ProgressBar.Line('#container');
+  });
+})
 
 
 
