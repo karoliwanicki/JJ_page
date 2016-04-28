@@ -182,4 +182,14 @@ header{
             font-size: 36px;
           }
         }
-    
+        .circle_container1{
+          font-family: 'Raleway', sans-serif;
+          font-weight: bold;
+          @include flexDisplay;
+          width: 100%;
+          margin-top: 5%;
+          p{
+            font-size: 20px;
+            text-align: center;
+          }
+        }

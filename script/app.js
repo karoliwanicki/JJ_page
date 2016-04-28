@@ -1,25 +1,83 @@
 $(function(){
+
   $('.tabs .tab-links a').on('click', function(e){
        var currentAttrValue = $(this).attr('href');
        $('.tabs ' + currentAttrValue).fadeIn(400).siblings().hide();
        $(this).parent('li').addClass('active').siblings().removeClass('active');
        e.preventDefault();
    });
-})
-// Start a progress bar
-$('.pie_progress').asPieProgress('start');
 
-// Finish
-$('.pie_progress').asPieProgress('finish');
 
-// 50%
-$('.pie_progress').asPieProgress('go',50);
+   $("#test-circle").circliful({
+          animationStep: 5,
+          foregroundBorderWidth: 5,
+          backgroundBorderWidth: 15,
+          backgroundColor: '#d2d2d1',
+          foregroundColor: '#D9853B',
+          fillColor: '#d2d2d1',
+          fontColor: 'black',
+          percentageTextSize: 36,
+          percent: 65,
 
-// 50%
-$('.pie_progress').asPieProgress('go','50%');
+      });
 
-// Stop a progress bar
-$('.pie_progress').asPieProgress('stop');
+      $("#test-circle1").circliful({
+        animationStep: 5,
+        foregroundBorderWidth: 5,
+        backgroundBorderWidth: 15,
+        backgroundColor: '#ECECEA',
+        foregroundColor: '#D9853B',
+        fillColor: '#ECECEA',
+        fontColor: 'black',
+        percentageTextSize: 36,
+             percent: 35
+         });
 
-// Reset
-$('.pie_progress').asPieProgress('reset');
+         $("#test-circle3").circliful({
+           animationStep: 5,
+           foregroundBorderWidth: 5,
+           backgroundBorderWidth: 15,
+           backgroundColor: '#ECECEA',
+           foregroundColor: '#D9853B',
+           fillColor: '#ECECEA',
+           fontColor: 'black',
+           percentageTextSize: 36,
+                percent: 78
+            });
+            $("#test-circle4").circliful({
+              animationStep: 5,
+              foregroundBorderWidth: 5,
+              backgroundBorderWidth: 15,
+              backgroundColor: '#ECECEA',
+              foregroundColor: '#D9853B',
+              fillColor: '#ECECEA',
+              fontColor: 'black',
+              percentageTextSize: 36,
+                   percent: 22
+               });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+});
