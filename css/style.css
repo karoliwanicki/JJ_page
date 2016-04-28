@@ -233,6 +233,11 @@ li.active a, li.active a:hover {
   background-color: #558C89;
 }
 
+.section_2 span {
+  font-family: 'Raleway', sans-serif;
+  font-size: 38px;
+}
+
 .section_2 p {
   font-family: 'Raleway', sans-serif;
   font-size: 36px;
@@ -253,4 +258,50 @@ li.active a, li.active a:hover {
 .circle_container1 p {
   font-size: 20px;
   text-align: center;
+}
+
+.section_3 {
+  align-items: flex-start;
+  background-color: #D9853B;
+  font-family: 'Raleway', sans-serif;
+}
+
+.section_3 span {
+  font-family: 'Raleway', sans-serif;
+  font-size: 38px;
+}
+
+.section_3 p {
+  font-size: 22px;
+}
+
+.container2 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  text-align: center;
+  margin-top: 5%;
+}
+
+footer {
+  background-color: #558C89;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+}
+
+footer .container3 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+footer .container3 img {
+  margin-bottom: 2%;
+  margin-top: 3%;
 }

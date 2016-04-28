@@ -177,6 +177,10 @@ header{
       	}
         .section_2{
           background-color: #558C89;
+          span{
+            font-family: 'Raleway', sans-serif;
+            font-size: 38px;
+          }
           p{
             font-family: 'Raleway', sans-serif;
             font-size: 36px;
@@ -193,3 +197,34 @@ header{
             text-align: center;
           }
         }
+        .section_3{
+          align-items: flex-start;
+          background-color: #D9853B;
+          font-family: 'Raleway', sans-serif;
+          span{
+            font-family: 'Raleway', sans-serif;
+            font-size: 38px;
+          }
+          p{
+            font-size: 22px;
+          }
+        }
+        .container2{
+        @include flexDisplay;
+        text-align: center;
+        margin-top: 5%;
+        }
+        footer{
+          background-color: #558C89;
+          font-family: 'Raleway', sans-serif;
+          font-size: 22px;
+        .container3{
+          @include flexDisplay;
+          text-align: center;
+          justify-content: center;
+          img{
+            margin-bottom: 2%;
+            margin-top: 3%;
+          }
+            }
+              }

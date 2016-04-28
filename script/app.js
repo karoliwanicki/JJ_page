@@ -42,7 +42,7 @@ $(function(){
            fillColor: '#d2d2d1',
            fontColor: 'black',
            percentageTextSize: 36,
-                percent: 78
+                percent: 68
             });
             $("#test-circle4").circliful({
               animationStep: 5,
@@ -53,7 +53,7 @@ $(function(){
               fillColor: '#d2d2d1',
               fontColor: 'black',
               percentageTextSize: 36,
-                   percent: 22
+                   percent: 32
                });
 
 
