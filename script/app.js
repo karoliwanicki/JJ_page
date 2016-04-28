@@ -12,7 +12,7 @@ $(function(){
           animationStep: 5,
           foregroundBorderWidth: 5,
           backgroundBorderWidth: 15,
-          backgroundColor: '#d2d2d1',
+          backgroundColor: '#ECECEA',
           foregroundColor: '#D9853B',
           fillColor: '#d2d2d1',
           fontColor: 'black',
@@ -27,7 +27,7 @@ $(function(){
         backgroundBorderWidth: 15,
         backgroundColor: '#ECECEA',
         foregroundColor: '#D9853B',
-        fillColor: '#ECECEA',
+        fillColor: '#d2d2d1',
         fontColor: 'black',
         percentageTextSize: 36,
              percent: 35
@@ -39,7 +39,7 @@ $(function(){
            backgroundBorderWidth: 15,
            backgroundColor: '#ECECEA',
            foregroundColor: '#D9853B',
-           fillColor: '#ECECEA',
+           fillColor: '#d2d2d1',
            fontColor: 'black',
            percentageTextSize: 36,
                 percent: 78
@@ -50,7 +50,7 @@ $(function(){
               backgroundBorderWidth: 15,
               backgroundColor: '#ECECEA',
               foregroundColor: '#D9853B',
-              fillColor: '#ECECEA',
+              fillColor: '#d2d2d1',
               fontColor: 'black',
               percentageTextSize: 36,
                    percent: 22

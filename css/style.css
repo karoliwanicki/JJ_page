@@ -184,7 +184,7 @@ header {
 }
 
 li.active a, li.active a:hover {
-  background: #ECECEA;
+  background: #d2d2d1;
   color: black;
   border-radius: 6px;
 }
@@ -192,7 +192,7 @@ li.active a, li.active a:hover {
 .tab-content {
   padding: 15px;
   border-radius: 6px;
-  background: #d2d2d1;
+  background: #ECECEA;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   color: black;
