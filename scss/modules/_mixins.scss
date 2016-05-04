@@ -9,67 +9,19 @@
 }
 
 /*font size maps for each element*/
-$nav-font-size:(
-null: 16px,
-320px: 20px,
-768px: 26px,
-1024px: 26px,
-1920px: 26px,
+$topName-font-size:(
+null: 50px,
+320px: 30px,
+768px: 30px,
+1024px: 50px,
+1920px: 50px,
 );
-$big-banner-font-size:(
-null: 16px,
-320px: 40px,
-768px: 80px,
-1024px: 80px,
-1920px: 80px,
-);
-$small-banner-font-size:(
-null:16px,
-320px: 18px,
-768px: 24px,
-1024px: 24px,
-1920px: 24px,
-);
-$footer-font-size:(
-null:  16px,
-320px: 12px,
-768px: 14px,
-1024px: 16px,
-1920px: 16px,
-);
-$footer-toplist-font-size:(
-null: 16px,
-320px: 16px,
-768px: 18px,
-1024px: 18px,
-1920px: 20px,
-);
-
-//product page headers and button
-$product-info-larger-font-size: (
-null: 18px,
-320px: 18px,
-768px: 16px,
-1024px: 18px,
-1920px: 18px,
-);
-
-// product page item description and table/delivery info
-$product-info-item-desc-font-size: (
-null: 16px,
-320px: 16px,
-768px: 16px,
-1024px: 16px,
-1920px: 16px,
-);
-
-// font sizes for dropdown lists
-$product-info-select-lists-font-size: (
-null: 18px,
-320px: 13px,
-768px: 13px,
-1024px: 18px,
-1920px: 18px,
+$topDesc-font-size:(
+null: 30px,
+320px: 15px,
+768px: 15px,
+1024px: 30px,
+1920px: 30px,
 );
 
 
